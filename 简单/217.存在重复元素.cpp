@@ -17,8 +17,8 @@ public:
     bool containsDuplicate(vector<int>& nums) {
         bool flag = false;
         unordered_set <int>st;
-
-        for(int i=0;i<nums.size();i++)
+        int h = (int)nums.size();
+        for(int i=0;i<h;i++)
         {
             if(st.count(nums[i])==0)
             st.insert(nums[i]);
