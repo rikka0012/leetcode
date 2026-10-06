@@ -1,0 +1,8 @@
+*.exe
+*.o
+*.obj
+*.out
+*.gch
+.vscode/
+Thumbs.db
+Desktop.ini
